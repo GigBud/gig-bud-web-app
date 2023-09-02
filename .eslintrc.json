@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": ["eslint:recommended", "next", "prettier"],
+	"rules": {
+		"capitalized-comments": "error",
+		"no-unused-vars": "off",
+		"no-useless-escape": "off",
+		"react/no-unescaped-entities": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"@next/next/no-page-custom-font": "off"
+	}
 }

@@ -1,0 +1,13 @@
+.next
+build
+.env
+.env.example
+.eslintignore
+.eslintrc.json
+.gitignore
+.git
+.github
+.prettierignore
+.prettierrc.json
+package-lock.json
+package.json

@@ -1,42 +1,42 @@
 {
-  "name": "gig-bud-web-app",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Gig Bud is a platform that connects gig seekers and gig providers in easy way",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint .",
-    "lint:fix": "npm run lint -- --fix",
-    "prettier": "npx prettier . --check",
-    "prettier:fix": "npm run prettier -- --write",
-    "format": "npm run prettier:fix && npm run lint:fix"
-  },
-  "dependencies": {
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0",
-    "eslint-config-next": "^13.4.19",
-    "eslint-config-prettier": "^9.0.0",
-    "prettier": "^3.0.3"
-  },
-  "author": "Gig Bud Development Team",
-  "keywords": [
-    "Gig Bud",
-    "Nextjs",
-    "React",
-    "MongoDB",
-    "Jobs",
-    "Opportunities",
-    "Gigs",
-    "Freelance"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/GigBud/gig-bud-code"
-  }
+	"name": "gig-bud-web-app",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Gig Bud is a platform that connects gig seekers and gig providers in easy way",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint .",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "npx prettier . --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"format": "npm run prettier:fix && npm run lint:fix"
+	},
+	"dependencies": {
+		"next": "13.4.19",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.48.0",
+		"eslint-config-next": "^13.4.19",
+		"eslint-config-prettier": "^9.0.0",
+		"prettier": "^3.0.3"
+	},
+	"author": "Gig Bud Development Team",
+	"keywords": [
+		"Gig Bud",
+		"Nextjs",
+		"React",
+		"MongoDB",
+		"Jobs",
+		"Opportunities",
+		"Gigs",
+		"Freelance"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GigBud/gig-bud-code"
+	}
 }
