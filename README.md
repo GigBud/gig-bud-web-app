@@ -14,7 +14,7 @@ First, **always** check [package.json](./package.json) and take a look at the de
 
 Second, clone this repository:
 
-    git clone https://github.com/GigBud/gig-bud-code.git
+    git clone https://github.com/GigBud/gig-bud-web-app.git
 
 Then, install all the dependencies:
 
