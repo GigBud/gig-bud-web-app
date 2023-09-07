@@ -1,5 +1,7 @@
 import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+
 
 const inter = Inter({ subsets: ['latin'] })
 

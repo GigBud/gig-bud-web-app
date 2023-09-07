@@ -1,0 +1,130 @@
+.jobs_title {
+	text-align: center;
+	padding-top: 30px;
+	font-weight: 600;
+	font-size: 28px;
+}
+.category {
+	color: darkred;
+	font-weight: 600;
+}
+.categories .dropdown i {
+	color: rgb(238, 21, 21);
+}
+.details {
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.details-design {
+	color: darkred;
+	font-weight: 600;
+	font-size: 17px;
+}
+.designLi {
+	color: rgb(227, 0, 0);
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.span {
+	color: black;
+}
+.designGraphic {
+	color: darkgrey;
+	padding-bottom: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	width: 180px;
+}
+.main {
+	padding: 30px 40px 20px 100px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+/* .categories
+{
+    flex-grow: 1;
+} */
+.cards {
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 150px;
+	margin-top: -90px;
+}
+.card {
+	width: 350px;
+	min-height: 200px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.25);
+	transition: all 0.2s;
+}
+.card:hover {
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+	transform: scale(1.01);
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 8px;
+}
+.card_icon {
+	width: 60px;
+	height: 60px;
+	margin-left: 8px;
+}
+
+.card_info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+.card_info h2 {
+	font-weight: 500;
+}
+.card_info > span {
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: -5px;
+}
+.location {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	margin-left: 8px;
+	font-size: 14px;
+}
+.location span {
+	font-weight: 600;
+}
+.location .card_fontawesome {
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.card_body {
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+@media (max-width: 799px) {
+	.jobs_title {
+		text-align: center;
+	}
+	.cards {
+		flex-direction: column;
+	}
+}
+@media (max-width: 477px) {
+	.jobs_title {
+		text-align: center;
+	}
+}
