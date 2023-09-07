@@ -4,6 +4,12 @@
 	font-weight: 600;
 	font-size: 28px;
 }
+.main {
+	padding: 12px 310px 50px 125px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
 .category {
 	color: darkred;
 	font-weight: 600;
