@@ -1,7 +1,6 @@
 'use client'
 import React, { useState } from 'react'
 import styles from '@/styles/home/jobs.module.css'
-import { Card, CardHeader } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
