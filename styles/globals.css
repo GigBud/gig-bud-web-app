@@ -1,4 +1,3 @@
-
 /* ------------------- */
 /* Reset               */
 /* ------------------- */
@@ -45,7 +44,6 @@ canvas {
 	display: block;
 }
 
-
 input,
 button,
 textarea,
@@ -86,13 +84,13 @@ body,
 :root {
 	/* colors */
 	--clr-primary: 16, 99%, 37%; /* Red */
-    --clr-secondary: 0, 71%, 99%; /* Extremly Light Red */
+	--clr-secondary: 0, 71%, 99%; /* Extremly Light Red */
 	--clr-black: 0, 0%, 0%; /* Text */
 	--clr-white: 0 0% 100%; /* Text and Background */
 	--clr-dark-gray: 0, 0%, 20%; /* Footer */
 
 	/* font-sizes */
-    --fs-900: clamp(4rem, 6vw + 1rem, 8rem);
+	--fs-900: clamp(4rem, 6vw + 1rem, 8rem);
 	--fs-800: 2.5rem;
 	--fs-700: 1.5rem;
 	--fs-600: 1.25rem;
@@ -131,7 +129,7 @@ body {
 	font-size: var(--fs-400);
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
-    background-color: hsl(var(--clr-secondary));
+	background-color: hsl(var(--clr-secondary));
 }
 
 /* ------------------- */
@@ -216,7 +214,7 @@ body {
 }
 
 .bg-secondary {
-    background-color: hsl(var(--clr-secondary));
+	background-color: hsl(var(--clr-secondary));
 }
 
 .bg-black {
@@ -252,7 +250,6 @@ body {
 .text-gray {
 	color: hsl(var(--clr-dark-gray));
 }
-
 
 /* ------------------- */
 /* Utility Classes     */

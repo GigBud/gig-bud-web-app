@@ -1,3 +1,4 @@
+
 import Jobs from "@/components/jobs"
 
 export default function Home() {
@@ -6,3 +7,4 @@ export default function Home() {
 	)
 
 }
+
