@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import styles from '@/styles/home/jobs.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 
 export default function Jobs() {
@@ -24,8 +25,8 @@ export default function Jobs() {
 						<summary>Finance</summary>
 					</details>
 
-					<details open className={styles.details}>
-						<summary className={`${styles['details-design']}`}>Design</summary>
+					<details open className={styles.details} width={50}>
+						<summary  className={`${styles['details-design']}`}>Design</summary>
 						<ul>
 							<li className={styles.designLi}>
 								<span className={styles.span}>UX Desiner</span>
@@ -62,6 +63,7 @@ export default function Jobs() {
 							/>
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>UX Designer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Senior</span>
 							</div>
 						</div>
@@ -93,7 +95,9 @@ export default function Jobs() {
 
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>UI Designer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Junior</span>
+                               
 							</div>
 						</div>
 						{/* Job Location */}
@@ -123,6 +127,7 @@ export default function Jobs() {
 							/>
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>UI Designer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Mid-Senior</span>
 							</div>
 						</div>
@@ -153,6 +158,7 @@ export default function Jobs() {
 							/>
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>UX Writer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Mid-Level</span>
 							</div>{' '}
 						</div>
@@ -183,6 +189,7 @@ export default function Jobs() {
 							/>
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>Brand Designer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Senior</span>
 							</div>{' '}
 						</div>
@@ -213,6 +220,7 @@ export default function Jobs() {
 							/>
 							<div className={styles.card_info}>
 								<h2 className={styles.card_title}>UX Designer</h2>
+                                <FontAwesomeIcon  className={styles.plus}icon={faPlus} />
 								<span>Senior</span>
 							</div>{' '}
 						</div>

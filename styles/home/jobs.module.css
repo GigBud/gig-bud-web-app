@@ -36,25 +36,17 @@
 	font-weight: 500;
 	width: 180px;
 }
-.main {
-	padding: 30px 40px 20px 100px;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-}
-/* .categories
-{
-    flex-grow: 1;
-} */
+
 .cards {
-	margin-left: 100px;
+  /*margin-left: 100px;*/ 
 	display: flex;
+    flex-basis: 70%;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 150px;
-	margin-top: -90px;
+    padding-top: 80px;
+    padding-left: 15px;
 }
 .card {
 	width: 350px;
@@ -93,7 +85,12 @@
 .card_info > span {
 	font-weight: 600;
 	font-size: 14px;
-	margin-top: -5px;
+	margin-top: 7px;
+}
+.plus
+{
+    margin-left: 185px;
+    margin-top: -29px;
 }
 .location {
 	padding-top: 15px;
