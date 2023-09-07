@@ -1,51 +1,51 @@
 .nav__wrapper {
-    display: flex;
-    justify-content: flex-end;
-    flex: 2;
-    flex-basis: content;
+	display: flex;
+	justify-content: flex-end;
+	flex: 2;
+	flex-basis: content;
 }
 
 @media (max-width: 720px) {
-    .nav__wrapper {
-        display: none;
-    }
+	.nav__wrapper {
+		display: none;
+	}
 }
 
 .navbar__desktop {
-    justify-self: center;
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
-    margin: auto 0;
-    list-style: none;
+	justify-self: center;
+	display: flex;
+	justify-content: space-around;
+	width: 65%;
+	margin: auto 0;
+	list-style: none;
 }
 
 @media (max-width: 720px) {
-    .navbar__desktop {
-        display: none;
-    }
+	.navbar__desktop {
+		display: none;
+	}
 }
 
 .navbar__btn {
-    border: 0;
-    align-self: center;
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
-    border-radius: 8px;
+	border: 0;
+	align-self: center;
+	padding-block: 0.5rem;
+	padding-inline: 1rem;
+	border-radius: 8px;
 }
 
 .navbar__icon {
-    display: block;
-    width: auto;
-    height: auto;
+	display: block;
+	width: auto;
+	height: auto;
 }
 
 .navbar__icon:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 @media (min-width: 720px) {
-    .navbar__icon {
-        display: none;
-    }
+	.navbar__icon {
+		display: none;
+	}
 }
