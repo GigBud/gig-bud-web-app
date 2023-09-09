@@ -5,21 +5,26 @@
 	font-size: 28px;
 }
 .main {
-	padding: 12px 310px 50px 125px;
+	/* padding: 12px 310px 50px 125px; */
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+	padding-top: 25px;
+}
+.categories {
+	margin-left: 150px;
 }
 .category {
 	color: darkred;
 	font-weight: 600;
 }
+
 .categories .dropdown i {
 	color: rgb(238, 21, 21);
 }
 .details {
 	font-weight: bold;
-	padding-top: 30px;
+	padding-top: 45px;
 }
 
 .details-design {
@@ -29,8 +34,8 @@
 }
 .designLi {
 	color: rgb(227, 0, 0);
-	font-size: 14px;
-	padding-bottom: 10px;
+	font-size: 15px;
+	padding-bottom: 12px;
 }
 .span {
 	color: black;
@@ -42,20 +47,22 @@
 	font-weight: 500;
 	width: 180px;
 }
-
-.cards {
-  /*margin-left: 100px;*/ 
+.row {
 	display: flex;
-    flex-basis: 70%;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-    padding-top: 80px;
-    padding-left: 15px;
+	gap: 25px;
+	flex-basis: 40%;
 }
+.cards {
+	margin-left: 110px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 80px;
+	padding-left: 15px;
+}
+
 .card {
-	width: 350px;
+	width: 325px;
 	min-height: 200px;
 	margin-bottom: 25px;
 	border-radius: 10px;
@@ -86,17 +93,17 @@
 	margin-left: 20px;
 }
 .card_info h2 {
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 600;
 }
 .card_info > span {
-	font-weight: 600;
-	font-size: 14px;
+	font-weight: 500;
+	font-size: 16px;
 	margin-top: 7px;
 }
-.plus
-{
-    margin-left: 185px;
-    margin-top: -29px;
+.plus {
+	margin-left: 185px;
+	margin-top: -24px;
 }
 .location {
 	padding-top: 15px;
@@ -114,20 +121,46 @@
 }
 .card_body {
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: lighter;
 	margin-left: 10px;
+	color: dimgray;
 }
 
+@media (max-width: 477px) {
+	.jobs_title {
+		text-align: center;
+	}
+	.main {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 48px 10px 20px 25px;
+	}
+	.categories {
+		flex-basis: 100%;
+		padding-left: 50px;
+	}
+	.cards {
+		padding-left: 0px;
+	}
+	.details_design {
+		font-size: 20px;
+	}
+	.category {
+		font-size: 26px;
+	}
+}
 @media (max-width: 799px) {
 	.jobs_title {
 		text-align: center;
 	}
 	.cards {
-		flex-direction: column;
+		display: flex;
 	}
-}
-@media (max-width: 477px) {
-	.jobs_title {
-		text-align: center;
+	.main {
+		padding: 50px 10px 20px 51px;
+	}
+	.card {
+		width: 300px;
+		flex-wrap: wrap;
 	}
 }
