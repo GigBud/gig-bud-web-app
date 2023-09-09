@@ -1,0 +1,167 @@
+.jobs_title {
+	text-align: center;
+	padding-top: 30px;
+	font-weight: 600;
+	font-size: 28px;
+}
+.main {
+	/* padding: 12px 310px 50px 125px; */
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-top: 25px;
+}
+.categories {
+	margin-left: 150px;
+}
+.category {
+	color: darkred;
+	font-weight: 600;
+}
+
+.categories .dropdown i {
+	color: rgb(238, 21, 21);
+}
+.details {
+	font-weight: bold;
+	padding-top: 45px;
+}
+
+.details-design {
+	color: darkred;
+	font-weight: 600;
+	font-size: 17px;
+}
+.designLi {
+	color: rgb(227, 0, 0);
+	font-size: 15px;
+	padding-bottom: 12px;
+}
+.span {
+	color: black;
+}
+.designGraphic {
+	color: darkgrey;
+	padding-bottom: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	width: 180px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	flex-basis: 40%;
+}
+.cards {
+	margin-left: 110px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 80px;
+	padding-left: 15px;
+}
+
+.card {
+	width: 325px;
+	min-height: 200px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.25);
+	transition: all 0.2s;
+}
+.card:hover {
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+	transform: scale(1.01);
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 8px;
+}
+.card_icon {
+	width: 60px;
+	height: 60px;
+	margin-left: 8px;
+}
+
+.card_info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+.card_info h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.card_info > span {
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 7px;
+}
+.plus {
+	margin-left: 185px;
+	margin-top: -24px;
+}
+.location {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	margin-left: 8px;
+	font-size: 14px;
+}
+.location span {
+	font-weight: 600;
+}
+.location .card_fontawesome {
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.card_body {
+	font-size: 15px;
+	font-weight: lighter;
+	margin-left: 10px;
+	color: dimgray;
+}
+
+@media (max-width: 477px) {
+	.jobs_title {
+		text-align: center;
+	}
+	.main {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 48px 10px 20px 25px;
+	}
+	.categories {
+		flex-basis: 100%;
+		padding-left: 50px;
+	}
+	.cards {
+		padding-left: 0px;
+	}
+	.details_design {
+		font-size: 20px;
+	}
+	.category {
+		font-size: 26px;
+	}
+}
+/*
+@media (max-width: 799px) {
+	.jobs_title {
+		text-align: center;
+	}
+	.cards {
+		display: flex;
+	}
+	.main {
+		padding: 50px 10px 20px 51px;
+	}
+	.card {
+		width: 300px;
+		flex-wrap: wrap;
+	}
+} */

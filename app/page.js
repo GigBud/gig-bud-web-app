@@ -1,3 +1,10 @@
+
+import Jobs from "@/components/jobs"
+
 export default function Home() {
-	return <div></div>
+	return (
+	<Jobs/>
+		)
+
 }
+
